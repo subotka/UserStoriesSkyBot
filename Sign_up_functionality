@@ -1,0 +1,68 @@
+As a user(customer) 
+I want to have a  sign up functionality
+So that I can register and use the online shop
+
+Scope
+
+Registration page
+Customer should be able to register to the website using email
+Customer should be able to register to the website using Gmail
+Customer should be able to register to the website using their Facebook profile
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The registration page is opened
+
+Acceptance criteria:
+
+
+Scenario 1: The user can successfully register by entering a valid email address
+Given: User on the Registration Page
+When: Enter a valid  email
+And: Enter a valid password
+And: Click the "Sign up" button
+Then: The customer will be successfully registered
+
+
+
+Scenario 2:User can successfully register by entering a valid Gmail address
+Given: User on the Registration Page
+When: Enter a valid  email
+And: Enter a valid password
+And: Click the "Sign up" button
+Then: The customer will successfully be  registered
+
+
+Scenario 3: The user can successfully register using their Facebook account
+Given: User on the Registration Page
+When: Click on the "Sign up with Facebook"
+And: Enter a valid Facebook login
+And: Enter a valid Facebook password
+And: Click the "Sign up" button
+Then: The customer will be successfully  registered
+
+
+Scenario 4:User can not successfully register using an invalid password
+Given: User on the Registration Page
+When: Click on the "Sign up with Facebook" or "Sign up with Email" or "Sign up with Gmail"
+And: Enter an invalid password
+And: Click the "Sign up" button
+Then: The warning message is shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
