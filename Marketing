@@ -1,0 +1,34 @@
+As a Marketing Manager
+I want to identify customers interest
+So that I can make a plan success launch a new product 
+
+Scope
+
+CRM functionality 
+Customers interests report
+
+
+Precondition:
+
+CRM functionality is implemented
+The Customer is registered in the online shop
+The administrator is logged 
+
+Acceptance criteria:
+
+
+Scenario 1: The CRM system uses customer purchase history and preferences to create targeted marketing lists
+Given: The administrator is logged in 
+When: Click on the " Report about customer purchase history and preferences" buttons 
+Then: Get a report
+
+
+
+
+
+
+
+
+
+ 
+
