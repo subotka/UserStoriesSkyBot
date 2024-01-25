@@ -1,0 +1,44 @@
+As a user(customer) 
+I want to add the card
+So that I can make purchase in the online shop
+
+Scope
+
+The add card functionality
+The secutity of displaying and adding the card
+Customer should be able to add Master Card and Visa Card
+It should work in Chorome, Mozilla, Safari brousers
+It should also works in Mobile
+
+
+Pre condition:
+
+The Customer is registered in online shop
+The add card gunctionality is implemented
+
+Acceptance criteria:
+
+
+Scenario 1:User can sucesfully add card
+Given: User on the "My Wallet" page
+When: Click on the "Add cart" button 
+And:Enter valid card number/cvv/date of experience
+And: Click the "Add cart" button
+Then: The card is added
+
+
+
+Scenario 2:Customer can not sucesfully add card
+Given: User on the "My Wallet" page
+When: Click on the "Add cart" button 
+And:Enter invalid card number/cvv/date of experience
+And: Click the "Add cart" button
+Then: The warning message is shown
+
+
+
+
+
+
+
+
