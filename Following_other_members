@@ -1,0 +1,53 @@
+As a user(customer) 
+I want to be able to follow other members 
+So that I can get more information about items
+
+Scope
+
+The member's page 
+The possibility follow other members
+It is possible to see a list of who is subscribed to you
+It should be possible to see the list of people you a followed by
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The Customer is registered in the online shop
+The member's page functionality is implemented
+
+
+Acceptance criteria:
+
+
+Scenario 1:User can successfully follow another user
+Given: The user is on the "Members" page
+When: Click on the "Follow" button 
+And: Send the request to the following
+And: Get the a positive answer
+Then: The user is following another user
+
+
+Scenario 2:User can't successfully follow another user
+Given: The user is in the "Members" page
+When: Click on the "Follow" button 
+And: Send the request to the following
+And: Get the negative answer
+Then: The user is not following another user
+
+
+Scenario 3:User1 can't successfully follow User2 till user1 does not allow the follow him
+Given: The user is on the "Members" page
+When: Click on the "Follow" button 
+And: Send the request to the following
+And: Waite to answer
+Then: The user is not following another user
+
+
+
+
+
+
+
+
