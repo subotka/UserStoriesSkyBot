@@ -1,0 +1,50 @@
+
+Notification about sales for customers who have bought items previously with the ability to unsubscribe Notification about warranty ending Registered users who have not yet purchased the product - receive a message about the viewed product. Registered users who put the product in the basket - receive a reminder to pay for this product.
+
+
+As a user(customer) 
+I want to receive notification about sales, warranty ending, the viewed product, receive a reminder to pay for previously put the product in the basket 
+So that I can have the opportunity to use services and don't  forget buy selected items
+
+Scope
+
+The sales page functionality
+The notification functionality
+The basket page 
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The Customer is registered in the online shop
+The setting notification functionality is implemented
+The user is subscribed to get notifications about sales
+
+
+Acceptance criteria:
+
+
+Scenario 1: User successfully gets notifications about sales
+Given: The user is on the main page
+When: Click on the "Notifications" button 
+Then: The user sees notifications about sales
+
+
+Scenario 2: User successfully gets notifications about warranty ending
+Given: The user is on the main page
+When: Click on the "Notification" button 
+Then: The user sees  notifications about sales
+
+
+Scenario 3: User successfully receives a reminder to pay for a previously put  product in the basket 
+Given: The user is on the main page
+When: The user is leaving the online shop
+Then: The user receives a reminder to pay for previously put product in the basket 
+
+Scenario 4: The User sees the list of the viewed product in the footer
+Given: The user is on the main page
+When: User has seen few products
+Then: The user sees the list of previously seen products in a footer
+
+
