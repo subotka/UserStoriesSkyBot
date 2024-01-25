@@ -1,0 +1,42 @@
+As a user(customer) 
+I want to be able to navigate the site using the navigation menu
+So that I can perform actions more quickly.
+
+
+
+Scope
+
+Navigation menu go to the web portal
+The header of the site
+Responsive design
+It should work in Chrome, Mozilla, Safari browsers
+It should work in Andriod, iOS
+
+
+Precondition:
+
+The online shop is launched 
+
+
+Acceptance criteria:
+
+
+Scenario 1:Registered user can successfully use the navigation menu
+Given: User in on the main page 
+When: User goes to another page 
+Then: He can see the navigation menu on the header 
+
+
+Scenario 2:Not registered user can successfully use the navigation menu
+Given: User in on the main page 
+When: User goes to another page 
+Then: He can see the navigation menu on the header 
+
+
+
+
+
+
+
+
+
