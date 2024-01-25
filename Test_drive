@@ -1,0 +1,66 @@
+As a user(customer) 
+I want to be able to order a test drive
+So that I can get a real feel of the vehicle
+
+Scope
+
+The order test drive page
+The possibility to order a test drive
+It is possible to see the list of the vehicles
+The user validation before ordering a test drive
+The possibility order a test drive using the phone number
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The Customer is registered in the online shop
+The "Our services" page functionality is implemented
+
+
+Acceptance criteria:
+
+
+Scenario 1:User can successfully order a test drive
+Given: The user is on the "Our Services" page
+When: Click on the "Order test drive" button 
+And: Fill all required fields
+And: Select the type of vehicle
+And: Click on the "Send" button
+Then: The request is sent. The test drive has been ordered
+
+
+Scenario 2:User can't successfully order a test drive
+Given: The user is on the "Our Services" page
+When: Click on the "Order test drive" button 
+And: Dont fill all required fields
+And: Select the type of vehicle
+And: Click on the "Send" button
+Then: The request is not sent. The validation message is shown
+
+
+
+Scenario 3:User can't successfully order a test drive
+Given: The user is on the "Our Services" page
+When: Click on the "Order test drive" button 
+And: Fill all required fields
+And: Dont select the type of vehicle
+And: Click on the "Send" button
+Then: The request is not sent. The validation message is shown
+
+Scenario 4:User can't successfully order a test drive
+Given: The user is on the "Our Services" page
+When: Click on the "Order test drive" button 
+And: Fill all required fields
+And: In the age validation checkbox don't check the "I'm older than 13 years old"
+And: Click on the "Send" button
+Then: The request is not sent. The validation message is shown
+
+
+
+
+
+
+
+
