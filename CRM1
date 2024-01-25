@@ -1,0 +1,39 @@
+As an administrator of the online shop
+I want to have information about new customers including contact details and preferences, customer's order history ( in registered customers)
+So that I can propose the best proposition to the clients and provide efficient assistance when it is necessary
+
+Scope
+
+CRM functionality 
+Account of the online shop administrator
+Customer's information
+
+
+
+Precondition:
+
+CRM functionality is implemented
+The Customer is registered in the online shop
+The administrator is logged in "Admin" account
+
+Acceptance criteria:
+
+
+Scenario 1:Administrator of the online shop can see information about new customers including contact details
+Given: The administrator is logged in
+When: Click on the "Show contact details" buttons 
+Then: Administrators see contact details
+
+
+Scenario 2:Administrator of the online shop can see information about new customers including preferences.
+Given: The administrator is logged in
+When: Click on the "Show preferences" buttons 
+Then: Administrators see the preferences of the customer
+
+
+Scenario 3:Administrator of the online shop can see information about the customer's order history
+Given: The administrator is logged in
+When: Click on the "Show order history" buttons 
+Then: Administrators see the customer's order history
+
+
