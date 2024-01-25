@@ -1,47 +1,47 @@
 As a user(customer) 
-I want to have to add items to cart
+I want to have to add items to the cart
 So that I can make a purchase in the online shop
 
 Scope
 
 Item card functionality
 Shop page functionality
-Customer should be able to add item to card
-It should work in Chorome, Mozilla, Safari brousers
-It should also works in Mobile
+The customer should be able to add the item to the card
+It should work in Chrome, Mozilla, and Safari browsers
+It should also work in Mobile
 
 
-Pre condition:
+Precondition:
 
-The item card are added to online shop
+The item cards are added to online shop
 
 Acceptance criteria:
 
 
-Scenario 1:User can sucesfully add the item to cart
+Scenario 1:User can successfully add the item to the cart
 Given: User on the Shop Page
 When: Select the item
 And: Click on it
 And: Select the color and quantity
-And:Click on the "Add to cart" button 
-Then: Item added to cart
+And: Click on the "Add to cart" button 
+Then: Item is added to the cart
 
 
 
-Scenario 2:User can't sucesfully add the item to cart
+Scenario 2:User can't successfully add the item to the cart
 Given: User on the Shop Page
 When: Select the item
 And: Click on the "Add to cart" button 
 Then: The "Please, select the color and quantity" message is shown
 
 
-Scenario 3:User can't sucesfully add the item to cart
+Scenario 3:User can't successfully add the item to the cart
 Given: User on the Shop Page
 When: Select the item
 And: Select the color
-And enter invalid quantity
+And enter an invalid quantity
 And: Click on the "Add to cart" button 
-Then: The worning message is shown
+Then: The warning message is shown
 
 
 

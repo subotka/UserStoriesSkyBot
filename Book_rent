@@ -1,16 +1,16 @@
 As a user(customer) 
 I want to be able to order scooter rent
-So that I can use services proposed by online shop
+So that I can use the services proposed by online shop
 
 Scope
 
 The scooter rent functionality
-The posibility order scooter rent using phone number
-It should work in Chorome, Mozilla, Safari brousers
-It should also works in Mobile
+The possibility order scooter rent using the phone number
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
 
 
-Pre condition:
+Precondition:
 
 The Customer is registered in online shop
 The "Our services" page functionality is implemented
@@ -19,21 +19,21 @@ The "Our services" page functionality is implemented
 Acceptance criteria:
 
 
-Scenario 1:User can sucesfully rent a scooter by fill clasic form
-Given: User is in the "Our services" page
+Scenario 1: User can successfully rent a scooter by filling the clasic form
+Given: User is on the "Our Services" page
 When: Click on the "Scooters for rent " button 
 And: Fill all required fields
-And:Select the type of vehicle
-And:Click on the "Send" button
+And: Select the type of vehicle
+And: Click on the "Send" button
 Then: The request is sent. The rent is booked
 
 
-Scenario 1:User can sucesfully rent a scooter by quick form
-Given: User is in the "Our services" page
+Scenario 1: User can successfully rent a scooter by quick form
+Given: The user is in the "Our Services" page
 When: Click on the "Scooters for rent " button 
 And: Fill phone number field
-And:Click on the "Send" button
-Then:Get call from online shop, discus all details and book the rent
+And: Click on the "Send" button
+Then: Get a call from the online shop, discuss all details, and book the rent
 
 
 
