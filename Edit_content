@@ -1,0 +1,31 @@
+As an administrator of the online shop
+I want to edit content without deep knowledge of frontend 
+So that I can increase the income of the online shop 
+
+Scope
+
+CRM functionality 
+Account of the online shop administrator
+Ability to edit content
+
+
+
+Precondition:
+
+CRM functionality is implemented
+The Administrator is logged in 
+
+Acceptance criteria:
+
+
+Scenario 1: The administrator of the online shop can edit content without deep knowledge of frontend 
+Given: The administrator is logged in 
+When: Click on the "Edit content" buttons 
+And: Edit content
+And: click the "Save" button
+Then: The page content is changed
+
+
+
+
+
