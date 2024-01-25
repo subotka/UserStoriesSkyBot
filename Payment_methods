@@ -1,0 +1,40 @@
+As a user(customer) 
+I want to be able to make my purchase via different payment methods (ApplePay, GooglePay).
+So that I can choose which one fits me the best
+
+
+Scope
+
+Add different types of payment system
+Checkout functionality
+Customers should be able to select the different types of payment
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The item is added to the card
+The checkout page is opened
+
+Acceptance criteria:
+
+
+Scenario 1:User can successfully select the payment method and to continue confirm buying the item
+Given: User on the "Checkout" page
+When: Select the payment type
+Then: The appropriate payment method (ApplePay, GooglePay) is selected and the user is able to continue to confirm purchase product
+
+
+
+Scenario 2 The user can not successfully continue to confirm purchase product without selecting the payment method
+Given: User on the "Checkout" page
+When: Click on the "Continue" button without selecting the payment method
+Then: The error message is shown on the page
+
+
+
+
+
+
+
