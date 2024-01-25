@@ -1,0 +1,42 @@
+As a user(customer) 
+I want to have checkout functionality
+So that I can purchase the item
+Scope
+
+Payment method
+Delivery information
+Information about client's card
+Item card
+It should work in Chrome, Mozilla, and Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The item is added to the card
+
+Acceptance criteria:
+
+
+Scenario 1:User can successfully finish the checkout
+Given: User on the "Cart" page
+When: Click on the "Checkout" button
+And: Enter valid delivery information
+And: Selected payment method
+And: Click on the "Buy" button
+And: Pay for the item
+Then: The customer will successfully buy the item
+
+Scenario 1:User can't successfully finish checkout
+Given: User on the "Cart" page
+When: Click on the "Checkout" button
+And: Enter invalid delivery information or don't select a payment method
+And: Click on the "Buy" button
+Then: A warning message is shown
+
+
+
+
+
+
+
