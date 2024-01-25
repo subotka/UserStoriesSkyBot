@@ -1,0 +1,44 @@
+As a user(customer) 
+I want to be able to search the necessary item
+So that I can faster make a purchase 
+
+Scope
+
+The searching functionality
+The item card
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The searching functionality is implemented
+
+
+Acceptance criteria:
+
+
+Scenario 1:User can successfully find the necessary item 
+Given: User on the "Shop" page
+When: Click on the "Search" field
+And: Enter a valid name of the item
+And: Click the "Search" button
+Then: The item is founded
+
+
+
+Scenario 1: The user can successfully find the item 
+Given: User on the "Shop" page
+When: Click on the "Search" field
+And: Enter an invalid name of the item
+And: Click the "Search" button
+Then: The warring message is shown
+
+
+
+
+
+
+
+
+
