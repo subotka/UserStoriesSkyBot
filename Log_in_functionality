@@ -1,0 +1,50 @@
+As a user(customer) 
+I want to have login functionality
+So that I can log in and use the online shop
+
+Scope
+
+Build a login page
+User validation
+The customer should be able to change the password
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The Customer is registered in the online shop
+
+Acceptance criteria:
+
+
+Scenario 1: The user can successfully log in
+Given: User on the Login Page
+When: Enter a valid password
+And: Enter a valid password
+And: Click the "Log in" button
+Then: The customer will successfully login
+
+
+
+Scenario 2:Customer can not loggin succesfuly
+Given: User on the Login Page
+When: Enter an invalid password
+And: Click valid password
+Then: The user will get an error message as "Please, enter valid login and password"
+
+
+Scenario 3:User can reset the password
+Given: User on the Login Page
+When: Click on the "Forgot password" button
+And: Will receive the "Reset Password" link or email ID
+And: Follow the link and provide a new password
+And: Click on the "Reset" button
+And: New password will be set
+And: Enter login and new password on the login page
+Then: The customer will succesfully login
+
+
+
+
+
