@@ -1,0 +1,54 @@
+As a user(customer) 
+I want to leave a rewiev
+So that I can express my opinian
+
+Scope
+
+The card functionality
+The posibility add the comment in the item's card
+It should work in Chorome, Mozilla, Safari brousers
+It should also works in Mobile
+
+
+Pre condition:
+
+The Customer is registered in online shop
+
+
+Acceptance criteria:
+
+
+Scenario 1:User can sucesfully leave a rewiev in the item card
+Given: User is in the item card page
+When: Click on the "Leave Rewiev" button 
+And: Select the numbers of the "Stars" which expres the impressing fmom the item
+And:Fill the "Review title" field
+And:Fill the "Review " field
+And: Click on the "Publish" button 
+Then: The comment is added
+
+
+Scenario 2:User can sucesfully leave a rewiev in the item card without fillig required fields
+Given: User is in the item card page
+When: Click on the "Leave Rewiev" button 
+And: Don't select the numbers of the "Stars" which expres the impressing from the item
+And:Fill the "Review title" field
+And: Click on the "Publish" button 
+Then: The warning message is shown, the comment is not added
+
+
+Scenario3 :User can sucesfully leave a rewiev in the item card without fillig required fields
+Given: User is in the item card page
+When: Click on the "Leave Rewiev" button 
+And: Select the numbers of the "Stars" which expres the impressing from the item
+And:Leave the "Review title" or "Rewiev" field empty
+And: Click on the "Publish" button 
+Then: The warning message is shown, the comment is not added
+
+
+
+
+
+
+
+
