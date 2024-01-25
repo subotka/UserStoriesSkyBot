@@ -1,0 +1,50 @@
+As a user(customer) 
+I want to be able to order an electric scooter service
+So that I can use the services proposed by the online shop
+
+Scope
+
+The order warranty service an appointment
+The order electric scooter service for customers who have bought vehicles in another shop
+The possibility order a test drive using the phone number
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The Customer is registered in the online shop
+The "Our services" page functionality is implemented
+
+
+Acceptance criteria:
+
+
+Scenario 1: User can successfully order warranty service appointment
+Given: The user is on the "Our Services" page
+When: Click on the "Electric scooter appointment" button 
+And: Fill all required fields
+And: Select the type of vehicle
+And: Click on the "Send" button
+Then: The request is sent. The warranty service appointment is done
+
+
+Scenario 2:User can successfully order a service appointment for a vehicle that is bought in another shop
+Given: The user is on the "Our Services" page
+When: Click on the "Electric scooter appointment" button 
+And: Fill all required fields
+And: Select the type of vehicle
+And: Click on the "Send" button
+Then: The request is sent. The service appointment is done
+
+
+
+
+
+
+
+
+
+
+
+
