@@ -1,0 +1,35 @@
+As a user(customer) 
+I want to be able to sort items
+So that I can faster find the necessary item
+
+Scope
+
+The sorting functionality
+The item card
+It should work in Chrome, Mozilla, Safari browsers
+It should also work in Mobile
+
+
+Precondition:
+
+The sorting functionality is implemented
+
+
+Acceptance criteria:
+
+
+Scenario 1: User can successfully sort items by: Recommended, Newest, Price (low to high), Price (high to low), Name A-Z, Name Z-A
+Given: User on the "Shop" page
+When: Select necessary type of sorting 
+Then: The items are sorted
+
+
+
+
+
+
+
+
+
+
+
